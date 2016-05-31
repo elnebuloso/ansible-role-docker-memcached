@@ -1,0 +1,5 @@
+---
+docker_memcached_state: "started"
+docker_memcached_version: "1.4"
+docker_memcached_container_name: "memcached"
+docker_memcached_container_port: "11211"
