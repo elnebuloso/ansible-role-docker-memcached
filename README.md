@@ -1,5 +1,6 @@
 # Ansible Role - Memcached for Docker
 
+[![Build Status](https://travis-ci.org/elnebuloso/ansible-role-docker-memcached.svg?branch=master)](https://travis-ci.org/elnebuloso/ansible-role-docker-memcached)
 
 ## Requirements
 
