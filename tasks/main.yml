@@ -1,6 +1,6 @@
 ---
 - name: install container
-  docker:
+  docker_container:
     name: "{{docker_memcached_container_name}}"
     image: "memcached:{{docker_memcached_version}}"
     state: "{{docker_memcached_state}}"
