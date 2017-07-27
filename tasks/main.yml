@@ -3,6 +3,8 @@
   docker_container:
     name: "{{docker_memcached_container_name}}"
     image: "memcached:{{docker_memcached_version}}"
+    pull: "{{docker_memcached_pull}}"
     state: "{{docker_memcached_state}}"
+    restart_policy: "{{docker_memcached_restart_policy}}"
     ports:
       - "{{docker_memcached_container_port}}:11211"
