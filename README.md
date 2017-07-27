@@ -8,16 +8,7 @@ This role requires Ansible 2.0 or higher, and platform requirements are listed i
 
 ## Role Variables
 
-Available variables are listed below, along with default values (see `defaults/main.yml`):
-
-```
-docker_memcached_version: "1.5"
-docker_memcached_container_name: "memcached"
-docker_memcached_container_port: "11211"
-docker_memcached_pull: "yes"
-docker_memcached_state: "started"
-docker_memcached_restart_policy: "always"
-```
+- [`defaults/main.yml`](https://github.com/elnebuloso/ansible-role-docker-memcached/blob/master/defaults/main.yml)
 
 ## Example Playbook
 
