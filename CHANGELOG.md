@@ -5,6 +5,11 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/)
 and this project adheres to [Semantic Versioning](http://semver.org/).
 
 
+## [1.3.0] - 2017-07-28
+### Changed
+docker_memcached_pull: "no"
+
+
 ## [1.2.0] - 2017-07-28
 ### Changed
 - docker_memcached_version: "1.5"
